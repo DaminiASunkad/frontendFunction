@@ -128,4 +128,4 @@ def main():
     app.run(host=settings.SERVER_HOST, port=settings.SERVER_PORT, debug=settings.FLASK_DEBUG)
 
 if __name__ == '__main__':
-    main()
+    app.run()
